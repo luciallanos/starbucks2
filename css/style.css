@@ -222,3 +222,39 @@
     top: -25px;
     right: -25px;
 }
+
+.footer {
+    background-color: black;
+    padding: 25px 15px;   
+}
+
+.footer__contenedor-info-usuario {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link {
+    color: #006241;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.footer__contenedor-redes-sociales {
+    margin-top: 15px;
+    margin-bottom: 19px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__contenedor-redes-sociales i {
+    color: #006241;
+    font-size: 18px;
+}
+
+.footer__atencion-cliente {
+    text-decoration: none;
+    color:#13841e;
+    font-weight: bolder;
+}
