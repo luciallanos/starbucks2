@@ -258,3 +258,173 @@
     color:#13841e;
     font-weight: bolder;
 }
+
+@media (min-width: 768px) {
+    .header__container-user-movile {
+        display: none;
+    }
+
+    .header__contenedor-login {
+        display: block;
+    }
+
+    .header__contenedor-login i {
+        font-size: 45px;
+        color: white;
+    }
+
+    .header__nav {
+        display: block;
+    }
+
+    .header__nav-link {
+        text-decoration: none;
+        color: white;
+        margin-left: 15px;
+    }
+
+    .main__contenedor-imagen-logo {
+        display: block;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__logo {
+        width: 80%;
+    }
+
+    .main__contenedor-info-principal {
+        width: 50%;
+    }
+
+    .main {
+        display: flex;
+        padding: 20px 40px;
+    }
+
+    .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .gallery__img {
+        width: 30%;
+    }
+
+    .contact__form {
+        width: 450px;
+    }
+
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px 20px;
+    }
+
+    .cards__contenedor-tarjetas,z {
+        width: 40%;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 50px;
+    }
+
+    .footer__contenedor-atencion-cliente {
+        display: flex;
+        align-items: center;
+    }
+}
+
+    @media (min-width: 1024px) {
+       
+        .header__nav-link {
+            font-size: 18px;
+            margin-left: 20px;
+        }
+
+        .main__logo {
+            width: 400px;
+        }
+
+        .main {
+            padding: 15px 60px;
+        }
+
+        .main__titulo {
+            font-size: 70px;
+        }
+
+        .main__parrafo {
+            font-size: 19px;
+           line-height: 30px;
+        }
+
+        .gallery__img {
+            width: 30%;
+        }           
+
+        .gallery {
+            justify-content: space-evenly;   
+            padding: 40px 25px;
+        }
+
+        .contact__titulo {
+            font-size: 45px;
+        }
+
+        .contact__form {
+            width: 650px;
+            height: 350px;
+            padding: 20px 30px;
+        }
+
+        .contact__input label {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .contact__input input::placeholder{
+            font-size: 14px;
+        }
+
+        .contact__input textarea::placeholder{
+            font-size: 14px;
+        }
+
+       .contact__button {
+            width: 200px;
+            height: 40px;
+        }
+
+        .contact__input {
+            margin-bottom: 25px;
+        }
+
+        .cards__contenedor-tarjetas {
+            width: 450px;
+        }
+
+        .footer {
+            height: 250px;
+            align-items: center;
+        }
+
+        .footer__link {
+            font-size: 20px;
+        }
+
+        .footer__contenedor-redes-sociales i {
+            font-size: 25px;
+            margin-right: 40px;
+        }
+
+        .footer__atencion-cliente {
+            font-size: 20px;
+        }
+}
