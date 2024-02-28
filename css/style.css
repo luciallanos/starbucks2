@@ -42,3 +42,35 @@
 .header__contenedor-login {
     display: none;
 }
+
+.main__logo {
+    width: 30px;
+}
+
+.main__contenedor-imagen-logo {
+    display: none;
+}
+
+.main {
+    margin-top: 100px;
+    padding: 15px 15px 10px;
+}
+
+.main__titulo {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.main__titulo span {
+    color: #006241;
+}
+
+.main__parrafo {
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.main__contenedor-info-principal {
+    display: flex;
+    flex-direction: column;
+}
